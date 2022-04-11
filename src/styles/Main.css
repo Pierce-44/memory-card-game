@@ -1,0 +1,121 @@
+
+
+.mainBody {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(../images/grass2.png);
+  background-color: rgb(49, 189, 49);
+  flex: 1;
+
+}
+
+.pokemon {
+  cursor: pointer;
+  margin-left: 40px;
+  margin-right: 40px;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+}
+
+.pokemon:hover {
+  transform: rotateY(180deg) scale(1.2);
+}
+
+.subTitleDiv {
+  display: flex;
+  gap: 30vw;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#topScore {
+  white-space: nowrap;
+}
+
+#score {
+  white-space: nowrap;
+}
+
+.subTitleFont {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 
+  0px 0px 3px blue,
+  0px 0px 3px blue,
+  0px 0px 3px blue,
+  0px 0px 3px blue,
+  0px 0px 3px blue,
+  0px 0px 3px blue,
+  0px 0px 3px blue,
+  0px 0px 3px blue;
+}
+
+@keyframes fadein {
+  0% { 
+    opacity: 0;
+    transform: scale(0);
+   }
+  50% { 
+    opacity: 0.5;
+    transform: scale(1.2);
+   }
+   100% {
+    opacity: 1;
+    transform: scale(1);
+   }
+}
+
+
+@media only screen and (max-width: 1040px)  {
+  .pokemon {
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 900px)  {
+  .pokemon {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 1190px)  {
+  .pokemon {
+    cursor: pointer;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+@media only screen and (min-width: 1390px)  {
+  .pokemon {
+    cursor: pointer;
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+}
+
+@media only screen and (max-width: 710px)  {
+  .subTitleDiv {
+    top: 53px;
+  }
+
+  .subTitleFont {
+
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 470px)  {
+  .subTitleDiv {
+    top: 57px;
+  }
+
+}

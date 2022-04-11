@@ -1,8 +1,12 @@
+import Header from './components/Header';
+import Main from './components/Main';
+import './styles/Body.css';
+
 function App() {
-  console.log('test');
   return (
-    <div>
-      <p>test</p>
+    <div className="pageBody">
+      <Header />
+      <Main />
     </div>
   );
 }
