@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.d06dd86d.css",
+    "main.js": "/memory-card-game/static/js/main.324768c0.js",
+    "static/media/title2.png": "/memory-card-game/static/media/title2.875baf7711c2f7e97ef6.png",
+    "static/media/Swagger.ttf": "/memory-card-game/static/media/Swagger.80de2e2486e668e66919.ttf",
+    "static/media/pokeball.png": "/memory-card-game/static/media/pokeball.d4f4c36374aad37e3be4.png",
+    "static/media/Venusaur.png": "/memory-card-game/static/media/Venusaur.af5dd36252844f46d32d.png",
+    "static/media/Charizard.png": "/memory-card-game/static/media/Charizard.4b8c5420ba0730fcf93a.png",
+    "static/media/Suicune.png": "/memory-card-game/static/media/Suicune.60f783afa2a017d1e564.png",
+    "static/media/Blastoise.png": "/memory-card-game/static/media/Blastoise.b87ae88849d4e547117b.png",
+    "static/media/Entei.png": "/memory-card-game/static/media/Entei.0028951346be9a4e3741.png",
+    "static/media/Lugia.png": "/memory-card-game/static/media/Lugia.b4a8f64bd8b83760d5af.png",
+    "static/media/lapras.png": "/memory-card-game/static/media/lapras.58cfe6d2cad30a378f19.png",
+    "static/media/Raikou.png": "/memory-card-game/static/media/Raikou.8178c510fe6c569c34f6.png",
+    "static/media/Ho-Oh.png": "/memory-card-game/static/media/Ho-Oh.43fefa76b5fe45f659ed.png",
+    "static/media/Dragonite.png": "/memory-card-game/static/media/Dragonite.0e0ab71893dd4edbb3b5.png",
+    "static/media/Mew.png": "/memory-card-game/static/media/Mew.f79bc7697ec7ccb8c90d.png",
+    "static/media/Mewtwo.png": "/memory-card-game/static/media/Mewtwo.d9ac082c387b1a30eea7.png",
+    "static/media/trainer.png": "/memory-card-game/static/media/trainer.b55ccbd4147cdd40c986.png",
+    "static/media/pikachu.gif": "/memory-card-game/static/media/pikachu.a8cb649613c90e7c7253.gif",
+    "static/media/grass2.png": "/memory-card-game/static/media/grass2.a82cac2a64cc99fb6222.png",
+    "index.html": "/memory-card-game/index.html",
+    "main.d06dd86d.css.map": "/memory-card-game/static/css/main.d06dd86d.css.map",
+    "main.324768c0.js.map": "/memory-card-game/static/js/main.324768c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d06dd86d.css",
+    "static/js/main.324768c0.js"
+  ]
+}
